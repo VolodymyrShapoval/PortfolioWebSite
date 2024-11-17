@@ -497,15 +497,27 @@ body {
 .contact-me-page .contact-section .contact-form-block form .additional-info-container {
   display: none;
 }
-.contact-me-page .contact-section .contact-form-block form input, .contact-me-page .contact-section .contact-form-block form textarea {
+.contact-me-page .contact-section .contact-form-block form input, 
+.contact-me-page .contact-section .contact-form-block form textarea {
   border-radius: 15px;
   height: 5vh;
   width: 75%;
   padding: 10px;
 }
+.contact-me-page .contact-section .contact-form-block form a{
+  color: #fff;
+}
+.contact-me-page .contact-section .contact-form-block form a:hover{
+  text-decoration: underline;
+}
 .contact-me-page .contact-section .contact-form-block form textarea {
   width: 75%;
   height: 10vh;
+}
+.contact-me-page .contact-section .contact-form-block form .additional-info-container {
+  display: block;
+  margin-top: 0.5rem;
+  visibility: visible;
 }
 .contact-me-page .contact-section .contact-form-block form .checking {
   display: flex;
